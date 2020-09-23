@@ -167,6 +167,7 @@ body .container .main-grid .services .btn {
 }
 
 body .container .main-grid .services .btn button {
+  cursor: pointer;
   padding: .5rem;
   border-radius: 6px;
   border: none;
@@ -184,6 +185,7 @@ body .container .main-grid .services .btn button:hover {
 }
 
 body .container .main-grid .submit {
+  cursor: pointer;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
