@@ -1,1 +1,206 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.63);
+}
+
+body {
+  font-size: 10px;
+  font-family: "Oswald", sans-serif;
+  background-color: #192519;
+  color: rgba(255, 255, 255, 0.63);
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+body .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body .container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+body .container .location-nd-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 25rem;
+  margin-bottom: 1.5rem;
+}
+
+body .container .location-nd-contact div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .location-nd-contact div i {
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+  color: #cf5050;
+}
+
+body .container .location-nd-contact .email h4 {
+  cursor: pointer;
+}
+
+body .container .location-nd-contact .email h4:hover {
+  color: #cf5050;
+  -webkit-transition: color .5s ease-in-out;
+  transition: color .5s ease-in-out;
+}
+
+body .container .main-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .container .main-grid div {
+  margin-bottom: 1rem;
+}
+
+body .container .main-grid .name-mail-phone div h4 {
+  margin-bottom: .5rem;
+}
+
+body .container .main-grid .name-mail-phone div input {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 6px;
+  border: none;
+  background-color: rgba(255, 254, 254, 0.192);
+  padding: 1rem;
+  color: rgba(245, 245, 245, 0.829);
+  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+body .container .main-grid .message h4 {
+  margin-bottom: .5rem;
+}
+
+body .container .main-grid .message input {
+  width: 100%;
+  height: 5rem;
+  border-radius: 6px;
+  border: none;
+  background-color: rgba(255, 254, 254, 0.192);
+  padding: 1rem;
+  color: rgba(245, 245, 245, 0.829);
+  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+body .container .main-grid .services h4 {
+  margin-bottom: .5rem;
+}
+
+body .container .main-grid .services .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container .main-grid .services .btn button {
+  padding: .5rem;
+  border-radius: 6px;
+  border: none;
+  background-color: rgba(255, 254, 254, 0.192);
+  color: rgba(255, 255, 255, 0.63);
+  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+body .container .main-grid .services .btn button:hover {
+  color: #cf5050;
+  -webkit-transition: color .5s ease-in-out;
+  transition: color .5s ease-in-out;
+}
+
+body .container .main-grid .submit {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: .5rem 2rem .5rem 2rem;
+  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+  border: none;
+  background-color: #cf5050;
+  color: rgba(255, 255, 255, 0.63);
+}
+
+body .container .main-grid .submit:hover {
+  color: #cf5050;
+  background-color: rgba(255, 255, 255, 0.63);
+  -webkit-transition: color .5s ease-in-out;
+  transition: color .5s ease-in-out;
+}
+/*# sourceMappingURL=style.css.map */
