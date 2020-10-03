@@ -29,6 +29,11 @@ a {
   color: rgba(255, 255, 255, 0.63);
 }
 
+small {
+  font-size: .8rem;
+  letter-spacing: 0.5px;
+}
+
 body {
   font-size: 10px;
   font-family: "Oswald", sans-serif;
@@ -113,6 +118,10 @@ body .container .main-grid {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+body .container .main-grid i {
+  font-size: 1rem;
 }
 
 body .container .main-grid div {
