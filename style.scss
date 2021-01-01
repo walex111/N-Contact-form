@@ -36,7 +36,8 @@ a {
     text-decoration: none;
     color: $light-color;
 }
-small{
+
+small {
     font-size: .8rem;
     letter-spacing: 0.5px;
 }
@@ -101,7 +102,12 @@ body {
             display: flex;
             flex-direction: column;
 
-            i{
+            .error{
+                font-size: 2rem;
+                color: red;
+            }
+
+            i {
                 font-size: 1rem;
             }
 

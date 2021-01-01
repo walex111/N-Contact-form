@@ -120,6 +120,11 @@ body .container .main-grid {
           flex-direction: column;
 }
 
+body .container .main-grid .error {
+  font-size: 2rem;
+  color: red;
+}
+
 body .container .main-grid i {
   font-size: 1rem;
 }
